@@ -1,5 +1,5 @@
 // Centralized API utility for frontend to connect to backend
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://coredose-backend.onrender.com/api';
 
 export type ProductDTO = {
   _id: string;
